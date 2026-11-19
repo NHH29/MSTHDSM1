@@ -1,0 +1,15 @@
+Variable,Description,Source,Concept
+id,Participant ID,SEQN,No standard code
+age,Age in years (80 means 80 or over),RIDAGEYR,Age 397669002
+sex,Male or female,RIAGENDR,Biological sex 734000001
+ethnicity,"Race and Hispanic origin, six groups",RIDRETH3,Ethnic group 372148003 (non-standard in OMOP)
+bmi,Body mass index (kg/m2),BMXBMI,Body mass index 60621009
+income_ratio,Family income divided by the poverty line (5 means 5 or more),INDFMPIR,No standard code
+diabetes,"1 if told by a doctor they have diabetes, 0 if not or borderline",DIQ010,Diabetes 73211009
+smoking_status,"Never, former or current smoker","SMQ020, SMQ040","Never smoked 266919005, ex-smoker 8517006, smoker 77176002"
+systolic_mean,"Average systolic reading (mmHg), used to build the outcome",BPXOSY1-3,Systolic blood pressure 271649006
+diastolic_mean,"Average diastolic reading (mmHg), used to build the outcome",BPXODI1-3,Diastolic blood pressure 271650006
+uncontrolled_bp,"Outcome: 1 if uncontrolled at the NICE threshold, 0 if not","From systolic_mean, diastolic_mean and age",No standard code
+exam_weight,"Survey weight, for US estimates, not a predictor",WTMEC2YR,No standard code
+psu,"Survey sampling unit, not a predictor",SDMVPSU,No standard code
+strata,"Survey stratum, not a predictor",SDMVSTRA,No standard code

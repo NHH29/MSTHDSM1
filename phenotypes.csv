@@ -1,0 +1,6 @@
+Phenotype,Source,Rule,SNOMED
+Treated hypertension,"BPQ020, BPQ150",Told they have high blood pressure and taking medication,Hypertension 38341003
+Uncontrolled blood pressure,"BPXOSY1-3, BPXODI1-3","Average ≥140/90, or ≥150/90 at 80+ (NICE)",None; built from systolic 271649006 and diastolic 271650006
+Diabetes,DIQ010,Told by a doctor; borderline counted as no,Diabetes 73211009
+Smoking status,"SMQ020, SMQ040","Never, former or current (CDC)","Never smoked 266919005, ex-smoker 8517006, smoker 77176002"
+Pregnancy,RIDEXPRG,Pregnant at the exam (flag),Pregnancy 77386006
